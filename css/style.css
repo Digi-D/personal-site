@@ -1,0 +1,99 @@
+#main-card {
+  -webkit-box-shadow: 4px 4px 16px -6px rgba(0,0,0,0.69);
+  -moz-box-shadow: 4px 4px 16px -6px rgba(0,0,0,0.69);
+  box-shadow: 4px 4px 16px -6px rgba(0,0,0,0.69);
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 20px;
+}
+
+h1 {
+  text-align: right;
+  padding: 10px;
+  font-family: 'Cormorant', serif;
+  font-size: 2.8em;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+#about {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+#brief-bio {
+  padding: 15px;
+  padding-top: 30px;
+}
+
+#brief-bio p {
+  padding-top: 0px;
+  margin-top: 0px;
+
+  font-family: 'Lato', sans-serif;
+}
+
+#photo-me {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#nav {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#social-media {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.fa {
+  margin: 5px;
+  cursor: pointer;
+  font-size:36px;
+}
+
+@media only screen and (min-width: 768px) {
+  #main-card {
+    margin-top: 150px;
+    max-width: 900px;
+  }
+
+  #about {
+    flex-wrap: nowrap;
+  }
+
+  .fa {
+    margin-left: 20px;
+    font-size:24px;
+  }
+
+  #brief-bio {
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #main-card {
+    max-width: 1140px;
+  }
+}
+
+
+#nav a:link, #nav a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  text-decoration: underline;
+}
+
+#social-media a:link, #social-media a:visited, #social-media a:hover {
+  color: #000;
+  text-decoration: none;
+}
